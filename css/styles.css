@@ -5,12 +5,15 @@
     padding: 0 20px;
 }
 
+h1 {
+    color: #00BFFF;
+}
 header{
     background-color: #161B22;
     padding: 16px;
     border-radius: 8px;
     text-align: right;
-
+ 
 }
 
 body{
@@ -21,7 +24,9 @@ a {
     color: #ffffff;
     
 }
-
+a:hover{
+    color: #00BFFF;
+}
  img {
     width: 200px;
     height: 200px;
@@ -64,3 +69,6 @@ footer{
     gap: 16px;
 }
 
+nav a {
+    padding: 4px 8px;
+}
