@@ -3,6 +3,7 @@ header{
     padding: 16px;
     border-radius: 8px;
     text-align: right;
+
 }
 
 body{
@@ -11,6 +12,7 @@ body{
 }
 a {
     color: #ffffff;
+    
 }
 
  img {
@@ -28,8 +30,8 @@ h1, h2, h3{
 }
 
 ul {
-    text-align: center;
-    list-style: none;
+    text-align: left;
+    
 }
 
 section {
@@ -38,12 +40,20 @@ section {
     margin: 20px 0;
     border-radius: 12px;
     border: 1px solid #30363D;
+    transition: transform 0.3s ease;
     
-    
+}
+section:hover{
+    transform: translateY(-5px)
 }
 
 footer{
     background-color: #161B22;
     padding: 12px;
-    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
+
