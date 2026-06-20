@@ -77,3 +77,15 @@ nav a {
     padding: 4px 8px;
     text-decoration: none;
 }
+.card {
+    background-color: #161B22;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #2d5787;
+    flex: 1;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
