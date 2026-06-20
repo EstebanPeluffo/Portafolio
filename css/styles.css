@@ -1,4 +1,12 @@
 
+
+/* Un media queries, para cuando la pantalla sea mas pequena, se acomoden las tarjetas*/
+@media (max-width: 600px) {
+    .proyectos-tarjetas {
+        flex-direction: column;
+    }
+}
+
 /* para controlar el ancho maximo de la pagina */
 .container {
     max-width: 800px;
@@ -23,8 +31,10 @@ header{
     background-color: #161B22;
     padding: 16px;
     border-radius: 4px;
-    text-align: right;
+    /*text-align: right;*/
     border: 2px ridge #2d5787;
+    width: 100%;
+    box-sizing: border-box;
  
 }
 /* Estilo y funte general*/
@@ -102,9 +112,17 @@ nav a {
     transform: translateY(-5px);
 }
 
-/* Un media queries, para cuando la pantalla sea mas pequena, se acomoden las tarjetas*/
-@media (max-width: 600px) {
-    .proyectos-tarjetas {
-        flex-direction: column;
-    }
+.logo{
+    height: 40px;
+    width: auto;
+    border: 2px ridge #2d5787;
+    display: inline;
+    margin:  0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
