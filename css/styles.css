@@ -77,6 +77,10 @@ nav a {
     padding: 4px 8px;
     text-decoration: none;
 }
+.proyectos-grid {
+    display: flex;
+    gap: 16px;
+}
 .card {
     background-color: #161B22;
     padding: 20px;
